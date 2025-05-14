@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Arti Jadhav",
+  title: "Hi all, I'm Arti",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+"A passionate Full Stack Java Developer 🚀 having experience in building web applications using Java / Spring Boot / ReactJS along with REST APIs, MySQL, and other modern tools and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/uc?id=1Ey5ZnZoi-VxcUBBp52g1NFnwHjiqZHJ9&export=download", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/artidabh",
+  linkedin: "https://www.linkedin.com/in/arti-jadhav-494a25349",
+  gmail: "artidabhade1521@gmail.com",
+  
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,103 +46,96 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WITH A PASSION FOR SOLVING COMPLEX PROBLEMS AND BUILDING SCALABLE APPLICATIONS",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Develop highly interactive Front end / User Interfaces with React"),
+    emoji("⚡ Build scalable and efficient back-end services using Java, Spring Boot, and Microservices architecture"),
+    emoji("⚡ Integration of third-party services such as AWS, Keycloak, Vault"),
+    emoji("⚡ Expertise in role-based access control and secure application development"),
+    emoji("⚡ Passionate about developing RESTful APIs and maintaining clean, maintainable code"),
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "HTML5",
+      fontAwesomeClassname: "fab fa-html5",
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "CSS3",
+      fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-js",
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "ReactJS",
+      fontAwesomeClassname: "fab fa-react",
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java",
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Spring Boot",
+      fontAwesomeClassname: "fab fa-spring",
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Microservices",
+      fontAwesomeClassname: "fas fa-cogs",
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws",
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "MySQL",
+      fontAwesomeClassname: "fas fa-database",
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Keycloak",
+      fontAwesomeClassname: "fas fa-lock",
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Vault",
+      fontAwesomeClassname: "fas fa-shield-alt",
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "Spring Security",
+      fontAwesomeClassname: "fas fa-shield-alt",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
-// Education Section
 
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Modern College, Nigdi, Pune",
+      logo: require("./assets/images/modernCollegeLogo.png"),
+      subHeader: "Bachelor of Pharmacy",
+      duration: "2014 - 2018",
+      desc: "Graduated with 74% and gained foundational knowledge in pharmaceutical sciences.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Completed practical training and academic projects",
+        "Participated in healthcare awareness programs"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Sant Tukaram Vidyalaya, Dehugaon",
+      logo: require("./assets/images/santTukaramLogo.png"),
+      subHeader: "SSC (10th Standard)",
+      duration: "2012",
+      desc: "Scored 86% in the SSC Board Examination.",
+      descBullets: [
+        "Achieved academic excellence in Science and Mathematics"
+      ]
     }
   ]
 };
+
 
 // Your top 3 proficient stacks/tech experience
 
@@ -154,11 +144,11 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "50%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
@@ -171,42 +161,52 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Sr Java Developer",
+      company: "9i Web Solutions Pvt Ltd, Hyderabad",
+      companylogo: require("./assets/images/9iWebSolutionsLogo.png"),
+      date: "Aug 2022 – Present",
+      desc: "Developed and deployed RESTful services and APIs with a microservices architecture. Led the complete development lifecycle for various features, from requirement gathering to deployment.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Integrated HashiCorp Vault with Spring Boot for secure storage and management of confidential data",
+        "Optimized application performance and ensured system scalability",
+        "Participated in Agile ceremonies, including sprint planning, daily stand-ups, and retrospectives"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Database Analyst (Contract)",
+      company: "Straive (formerly Scope e-Knowledge Center)",
+      companylogo: require("./assets/images/straiveLogo.png"),
+      date: "May 2022 – Aug 2022",
+      desc: "Conducted analysis and normalization of large-scale academic databases using MySQL. Ensured data integrity and identified anomalies for resolution.",
+      descBullets: [
+        "Performed ETL processes to ensure clean, structured datasets",
+        "Coordinated resolution of data anomalies with the development team"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Jr Java Developer",
+      company: "9i Web Solutions Pvt Ltd, Hyderabad",
+      companylogo: require("./assets/images/9iWebSolutionsLogo.png"),
+      date: "Jan 2021 – May 2022",
+      desc: "Used Java 8 features like Streams and Optional to write cleaner, more efficient business logic. Participated in debugging and enhancing existing features.",
+      descBullets: [
+        "Followed Agile methodologies with Jira and Git for source control and task tracking",
+        "Assisted in debugging and enhancing features for system stability"
+      ]
     }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -239,7 +239,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -248,51 +248,46 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Key accomplishments, certifications, and live project deployments showcasing my skills and learning.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "FarmaFriend - FinTech ERP for Farmers",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Designed and developed a full-stack FinTech ERP system to help farmers manage crops, inventory, and transactions using React and Spring Boot.",
+      image: require("./assets/images/farmaFriendLogo.webp"),
+      imageAlt: "FarmaFriend Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Frontend GitHub",
+          url: "https://github.com/artidabhade/farmafriend-frontend"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Backend GitHub",
+          url: "https://github.com/artidabhade/farmafriend-backend"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Spring Boot + Keycloak Integration",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Implemented secure login and role-based access control using Keycloak across multiple modules including admin and user dashboards.",
+      image: require("./assets/images/keycloakLogo.webp"),
+      imageAlt: "Keycloak Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Integration Code Sample",
+          url: "https://github.com/artidabhade/keycloak-integration-doc"
         }
       ]
     },
-
     {
       title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      subtitle: "Completed Certification from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -300,7 +295,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Blogs Section
@@ -324,7 +319,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,20 +338,20 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+ // subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -369,21 +364,23 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  title: "Contact Me ☎️",
+  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "+91 8149732553",
+  email_address: "artidabhade1521@gmail.com",
+  display: true
 };
+
+
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

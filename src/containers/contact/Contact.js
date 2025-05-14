@@ -1,14 +1,15 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./Contact.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {illustration, contactInfo} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { illustration, contactInfo } from "../../portfolio";
+import { Fade } from "react-reveal";
 import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Contact() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
@@ -29,27 +30,24 @@ export default function Contact() {
                 isDark ? "dark-mode contact-text-div" : "contact-text-div"
               }
             >
-              {contactInfo.number && (
-                <>
-                  <a
-                    className="contact-detail"
-                    href={"tel:" + contactInfo.number}
-                  >
-                    {contactInfo.number}
-                  </a>
-                  <br />
-                  <br />
-                </>
-              )}
-              <a
-                className="contact-detail-email"
-                href={"mailto:" + contactInfo.email_address}
-              >
-                {contactInfo.email_address}
-              </a>
-              <br />
-              <br />
-              <SocialMedia />
+              <div>
+                {/* Render Phone Title and Number */}
+                {contactInfo.number && (
+                  <p className="contact-direct-info">
+                    <strong>{contactInfo.phoneTitle}:</strong> {contactInfo.number}
+                  </p>
+                )}
+                
+                {/* Render Email Title and Address */}
+                {contactInfo.email_address && (
+                  <p className="contact-direct-info">
+                    <strong>{contactInfo.emailTitle}:</strong> {contactInfo.email_address}
+                  </p>
+                )}
+
+                <br />
+                <SocialMedia />
+              </div>
             </div>
           </div>
           <div className="contact-image-div">
@@ -59,7 +57,7 @@ export default function Contact() {
               <img
                 alt="Man working"
                 src={require("../../assets/images/contactMailDark.svg")}
-              ></img>
+              />
             )}
           </div>
         </div>
