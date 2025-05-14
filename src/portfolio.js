@@ -26,7 +26,7 @@ const greeting = {
 "A passionate Full Stack Java Developer 🚀 having experience in building web applications using Java / Spring Boot / ReactJS along with REST APIs, MySQL, and other modern tools and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/uc?id=1Ey5ZnZoi-VxcUBBp52g1NFnwHjiqZHJ9&export=download", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1JpnC-F02eIP0j58eJp5Mjp0QGmJPyxOw/view?usp=download", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
